@@ -1,0 +1,879 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+            <meta name="format-detection" content="telephone=no">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <link rel="apple-touch-icon-precomposed" href="//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/mdianying/nuomi-icon-117.png">
+            <link rel="manifest" href="/assets/manifest_170f038f.json">
+            <title>精灵宝可梦：波尔凯尼恩与机巧的玛机雅娜</title>
+            <script>var pageStart = Date.now();</script>
+            <script>
+            // dp config
+            window.alogObjectConfig = {sample:'0.8',product:'653',page:'movie/schedule_https',speed:{'sample':'1'}, exception: {sample: 1}};
+            void function(a,b,c,d,e,f,g){a.alogObjectName=e,a[e]=a[e]||function(){(a[e].q=a[e].q||[]).push(arguments)},a[e].l=a[e].l||+new Date,d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d;var h=!0;if(a.alogObjectConfig&&a.alogObjectConfig.sample){var i=Math.r
+andom();a.alogObjectConfig.rand=i,i>a.alogObjectConfig.sample&&(h=!1)}h&&(f=b.createElement(c),f.async=!0,f.src=d+"?v="+~(new Date/864e5)+~(new Date/864e5),g=b.getElementsByTagName(c)[0],g.parentNode.insertBefore(f,g))}(window,document,"script","/hunter/alog/alog.mobile.min.js","alog"),void function(){fu
+nction a(){}window.PDC={mark:function(a,b){alog("speed.set",a,b||+new Date),alog.fire&&alog.fire("mark")},init:function(a){alog("speed.set","options",a)},view_start:a,tti:a,page_ready:a}}();
+            void function(n){var o=!1;n.onerror=function(n,e,t,c){var i=!0;return!e&&/^script error/i.test(n)&&(o?i=!1:o=!0),i&&alog("exception.send","exception",{msg:n,js:e,ln:t,col:c}),!1},alog("exception.on","catch",function(n){alog("exception.send","exception",{msg:n.msg,js:n.path,ln:n.ln,method:n.me
+thod,flag:"catch"})})}(window);
+            </script>
+            <link rel="shortcut icon" href="//www.baidu.com/favicon.ico" >
+            <script src="//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/assets/core_b861b813.js"></script>
+            <script>
+            var fontSize = 16;
+            document.documentElement.style.fontSize = fontSize + 'px';
+            var hideHeader = true;
+
+            var csrfToken = '';
+            require.config({
+                waitSeconds: 30,
+                baseUrl: '//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/movie1/dianying-static4/assets/src',
+                paths: {},
+                packages: [
+                    {
+                        name: 'etpl',
+                        location: '../dep/etpl/3.0.1/src',
+                        main: 'main'
+                    },
+                    {
+                        name: 'touch',
+                        location: '../dep/touch/0.2.14/src',
+                        main: 'main'
+                    },
+                    {
+                        name: 'echarts',
+                        location: '../dep/echarts',
+                        main: 'echarts'
+                    },
+                    {
+                        name: 'tesla',
+                        location: '../dep/tesla',
+                        main: 'index'
+                    },
+                    {
+                        name: 'iscroll5',
+                        location: '../dep/iscroll',
+                        main: 'iscroll-zoom'
+                    },
+                    {
+                        name: 'scrollloading',
+                        location: '../dep/scrollloading',
+                        main: 'scrollloading'
+                    },
+                    {
+                        name: 'slider',
+                        location: '../dep/slider',
+                        main: 'slider'
+                    },
+                    {
+                        name: 'fullpage',
+                        location: '../dep/fullpage',
+                        main: 'fullpage'
+                    },
+                    {
+                        name: 'md5',
+                        location: '../dep/CryptoJS',
+                        main: 'md5'
+                    },
+                    {
+                        name: 'exif-js',
+                        location: '../dep/exif',
+                        main: 'exif'
+                    },
+                    {
+                        name: 'imagesLoaded',
+                        location: '../dep/imagesLoaded',
+                        main: 'imagesLoaded'
+                    },
+                    {
+                        name: 'clipboard',
+                        location: '../dep/clipboard',
+                        main: 'clipboard'
+                    }
+                ]
+            });
+            define('zepto', function () {return window.$;});
+
+            var subChannel = '';
+            if (subChannel.length > 0) {
+                window.name = subChannel;
+            }
+
+
+            window._MOVIE = {
+                version: '1510835770532',
+                sfrom: 'wise_shoubai',
+                sfromFun: 'lightapp',
+                client: 'lightapp',
+                channel: 'wise',
+                module: 'shoubai',
+                from: 'webapp',
+                kehuduan: '',
+                subChannel: subChannel,
+                c: '' || '257',
+                cc: '',
+                city: '广州市',
+                crt: '',
+                lat: '',
+                lng: '',
+                cuid: '',
+                anchor: false ? '#groupon' : '#showing',
+                source: '',
+                isNuomiWap: false,
+                isInNuomiNA: false,
+                IS_IN_NA: false,
+                pageId: 'movie/schedule',
+                flags: {"groupon":true,"card":true,"mall":true,"showTicket":true,"share":true,"footer":true,"presale":true,"citySelect":true,"showLocationBar":true,"showHome":true,"showSearch":false},
+                isLogin: false,
+                securemobil: '',
+                hasSecureMobil: false,
+                statParam: {
+                    da_src: (false ? 'nuomi_wap_' : '') + '',
+                    da_abtest: '',
+                    da_thirdpar : 'wise_shoubai' || window.name
+                },
+                https: true,
+                staticHost: 'https://gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy',
+                mapHost: 'https://gsp0.baidu.com/80MWsjip0QIZ8tyhnq',
+                toast: '',
+                shoubaiPush: false
+            };
+
+
+            function replaceUrl(url, level) {
+                // 如果非站内的网址，不做处理
+                if (url[0] !== '/'
+                    && url.indexOf(location.origin) !== 0
+                    && url.indexOf('yc.baidu.com') === -1) {
+                    return url;
+                }
+
+                var urlParse = document.createElement('a');
+                urlParse.href = url;
+
+                var prefix = urlParse.origin + urlParse.pathname;
+                var query = urlParse.search;
+                var hash = urlParse.hash;
+
+                query = query === '' ? '' : query.slice(1);
+
+                var qsStringify = function (obj) {
+                    if (!obj) {
+                        return '';
+                    }
+
+                    var pairs = [];
+                    for (var key in obj) {
+                        if (obj.hasOwnProperty(key)) {
+                            pairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(obj[key]));
+                        }
+                    }
+
+                    return pairs.join('&');
+                };
+                var qsParse = function (query) {
+                    if (!query) {
+                        return {};
+                    }
+
+                    var obj = {};
+
+                    query = query.split('&');
+                    for (var i = 0; i < query.length; i++) {
+                        var p = query[i].split('=', 2);
+                        if (p.length == 1) {
+                            obj[p[0]] = "";
+                        } else {
+                            obj[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+                        }
+                    }
+                    return obj;
+                }
+
+                var urlParams = query ? qsParse(query) : {};
+
+                var _MOVIE = window._MOVIE;
+
+                // 跳转去糯米主站的，URL统一处理一下
+                // 说是统一处理，实际上还是有些逻辑分散在各处，改的时候要注意
+                // 例如controller/cinema.js之类的
+                if (level === 'nuomi') {
+                    if (hideHeader === true) {
+                        urlParams.customui = 7;
+                    } else {
+                        urlParams.customui = 0;
+                    }
+                    if (_MOVIE.subChannel === 'wallet' || _MOVIE.subChannel === 'baifubao') {
+                        urlParams.from = 'qbsdktj';
+                    }
+                    url = prefix + '?' + qsStringify(urlParams) + hash;
+                    return url;
+                }
+
+                var appendFrom = true;
+                var appendLocation = true;
+                if (level === 'from') {
+                    appendFrom = false;
+                } else if (level === 'location') {
+                    appendLocation = false;
+                }
+
+                if (appendFrom) {
+                    urlParams.sfrom = _MOVIE.sfrom || 'wise_shoubai';
+                    urlParams.from = _MOVIE.from || 'webapp';
+                    urlParams.sub_channel = urlParams.sub_channel || _MOVIE.subChannel || '';
+                    urlParams.source = _MOVIE.source || '';
+                }
+
+                if (appendLocation) {
+                    urlParams.c = urlParams.c || _MOVIE.c || '';
+                    urlParams.cc = urlParams.cc || _MOVIE.cc || '';
+                }
+
+                // 地图需要透传cuid参数
+                if (window._MOVIE.sfromFun === 'map') {
+                    urlParams.cuid = urlParams.cuid || _MOVIE.cuid || '';
+                }
+
+                urlParams.kehuduan = urlParams.kehuduan || _MOVIE.kehuduan || '';
+
+                // 演出需要透传nb参数
+                var currentParams = qsParse(location.search.replace('?', ''));
+                if (currentParams.nb !== undefined) {
+                    urlParams.nb = currentParams.nb;
+                }
+
+                url = prefix + '?' + qsStringify(urlParams) + hash;
+                return url;
+            }
+
+            (function () {
+                var open = window.open;
+                window.open = function (url, noappend) {
+                    url = replaceUrl(url, noappend);
+                    setTimeout(function () {
+                        window.location.href = url;
+                    }, 0);
+                };
+            })();
+
+            function handler(event) {
+                var $target = $(event.target);
+                if ($target[0].tagName !== 'A') {
+                    $target = $target.parents('a');
+                }
+                if ($target.length === 0) {
+                    return;
+                }
+
+                var href = $target.attr('href') || $target.attr('data-href');
+
+                if (!href
+                    || href.indexOf('#') === 0
+                    || href.indexOf('javascript:') === 0
+                    || href.indexOf('tel') === 0
+                ) {
+                    return;
+                }
+                var noappend = $target.data('noappend');
+                if (noappend === 'all') {
+                    return;
+                }
+
+                href = replaceUrl(href, noappend);
+
+                $target.attr('href', href);
+                $target.attr('data-href', href);
+            }
+            $(function () {
+                document.body.addEventListener('touchstart', handler, true);
+                FastClick.attach(document.body);
+            });
+
+            $(function () {
+                var sid;
+                var activeTarget;
+                var moved;
+                $(document.body).on('touchstart', '.touching, [data-highlight=gray]', function (e) {
+                    if (activeTarget) {
+                        return;
+                    }
+                    activeTarget = this;
+                    sid = setTimeout(function () {
+                        $(activeTarget).addClass('touching-active');
+                    }, 100);
+                });
+
+                $(document.body).on('touchmove', function (e) {
+                    if (!activeTarget) {
+                        return;
+                    }
+                    moved = true;
+                    $(activeTarget).removeClass('touching-active');
+                    clearTimeout(sid);
+                    activeTarget = null;
+                });
+
+                function clearActive(e) {
+                    // 已出发touchmove 或者 activeTarget为空，不做任何处理
+                    if (moved || !activeTarget) {
+                        moved = false;
+                        return;
+                    }
+
+                    moved = false;
+                    clearTimeout(sid);
+                    $(activeTarget).addClass('touching-active');
+
+                    setTimeout(function () {
+                        $(activeTarget).removeClass('touching-active');
+                        activeTarget = null;
+                        moved = false;
+                    }, 150);
+                }
+
+                document.body.addEventListener('touchend', clearActive, true);
+                document.body.addEventListener('touchcancel', clearActive, true);
+            });
+
+            </script>
+            <script src="https://m.baidu.com/static/searchbox/openjs/aio.js"></script>
+<link rel="stylesheet" href="//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/movie1/dianying-static4/assets/src/movie/schedule_9c1faa67.css">
+            <script>
+                // wap端增加百度统计
+                var _hmt = _hmt || [];
+                (function() {
+                  var hm = document.createElement("script");
+                  hm.src = "https://hm.baidu.com/hm.js?96be1eebf2e1b543edecaecf02cd3add";
+                  var s = document.getElementsByTagName("script")[0];
+                  s.parentNode.insertBefore(hm, s);
+                })();
+            </script>
+        </head>
+        <script>alog('speed.set', 'ht', +new Date);</script>
+        <body>
+<div id="main">
+<div class="r-search">
+    <a href="/search/universal" data-href="/search/universal" data-log="{'da_src': 'searchBtn'}">
+        <div class="r-search-inner touching">
+            <i class="icon-search"></i><span>影院、影片、演出、明星</span>
+        </div>
+    </a>
+</div>
+<div class="top-bar">
+</div>
+
+<a href="/movie/detail?movie_id=95272&amp;c=257&amp;from=webapp&amp;sfrom=wise_shoubai" class="movie-main schedule-movie-main movieinfo touching" id="detail"
+data-log='{"da_src":"movieDetail.lnk","da_act":"click"}'>
+    <div class="basic-info gussian">
+        <div class="gussian-wrapper">
+            <div class="cover"></div>
+            <img class="gussian-img" src="https://gss0.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/movie/pic/item/d52a2834349b033b2f0e1f621ece36d3d439bd80.jpg">
+        </div>
+        <section class="movie-picture-wrapper">
+                 <div class="poster-show video" data-index="0" data-log='{"movieId":"95272","da_src":"posterShowBtn","da_act":"click"}' data-href="/movie/videoList?movieId=95272">
+                    <img class="poster" src="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/movie/pic/item/71cf3bc79f3df8dc33016f29c611728b4710284e.jpg" alt="精灵宝可梦：波尔凯尼恩与机巧的玛机雅娜"/>
+                    <i class="video-icon"></i></div>
+        </section>
+        <dl class="list">
+            <dt class="list-title">
+                <span class="list-name" >精灵宝可梦：波尔凯尼恩与机巧的玛机雅娜</span>
+
+            </dt>
+            <dd class="score">
+
+<div class="score-box">
+    <p class="rankstar-score" >
+<!--防止pm ue 再次要求改成一大一小的形式，先注释
+
+        <span class="score-int"></span>
+
+        <span class="score-dec">.2</span>
+
+}}
+-->
+        <span class="score-normal">8.2<span class="fen"> 分</span></span>
+    </p>
+</div>
+            </dd>
+            <dd class="detail-info">
+                <p class="detail1">
+                        神奇宝贝剧场版
+                </p>
+
+                <p class="detail2">
+                        冒险、动画
+                </p>
+
+                <p class="detail3">参考片长:
+                        94分钟
+                </p>
+
+                <p class="detail4">
+                        2017-11-11上映, 94分钟
+                </p>
+                <p class="detail5 border border-all">
+                   智能购票
+                </p>
+            </dd>
+        </dl>
+        <div class="arrow"></div>
+    </div>
+</a>
+
+
+<section id="filter">
+<div class="x-filter-horizontal-wrapper">
+</div>
+
+    <div class="x-filter-wrapper">
+<div class="x-filter">
+    <section class="title-wrapper border border-top border-bottom">
+        <div class="title" data-index="0">
+            <span class="title-name" data-index="0">全部日期</span>
+        </div>
+        <div class="title" data-index="1">
+            <span class="title-name" data-index="1">全城</span>
+        </div>
+        <div class="title" data-index="2">
+            <span class="title-name" data-index="2">品牌</span>
+        </div>
+        <div class="title" data-index="3">
+            <span class="title-name" data-index="3">筛选</span>
+        </div>
+    </section>
+    <div class="dropdown hide" data-index="0">
+        <div class="dropdown-content">
+<div class="list-section" data-index="0">
+    <div class="list-wrapper" data-index="0">
+        <ul class="inner" data-index="0"></ul>
+    </div>
+    <div class="sublist-wrapper" data-index="0">
+        <ul class="inner" data-index="0"></ul>
+    </div>
+</div>
+
+        </div>
+        <div class="toggle"></div>
+    </div>
+    <div class="dropdown hide" data-index="1">
+        <div class="dropdown-content">
+            <div class="tab-wrapper border border-bottom">
+                <span class="tab" data-index="1.0"><span class="tab-inner">按商圈</span></span>
+                <span class="tab" data-index="1.1"><span class="tab-inner">按地铁</span></span>
+            </div>
+<div class="list-section" data-index="1.0">
+    <div class="list-wrapper" data-index="1.0">
+        <ul class="inner" data-index="1.0"></ul>
+    </div>
+    <div class="sublist-wrapper" data-index="1.0">
+        <ul class="inner" data-index="1.0"></ul>
+    </div>
+</div>
+
+<div class="list-section" data-index="1.1">
+    <div class="list-wrapper" data-index="1.1">
+        <ul class="inner" data-index="1.1"></ul>
+    </div>
+    <div class="sublist-wrapper" data-index="1.1">
+        <ul class="inner" data-index="1.1"></ul>
+    </div>
+</div>
+
+        </div>
+        <div class="toggle"></div>
+    </div>
+    <div class="dropdown hide" data-index="2">
+        <div class="dropdown-content">
+<div class="list-section" data-index="2">
+    <div class="list-wrapper" data-index="2">
+        <ul class="inner" data-index="2"></ul>
+    </div>
+    <div class="sublist-wrapper" data-index="2">
+        <ul class="inner" data-index="2"></ul>
+    </div>
+</div>
+
+        </div>
+        <div class="toggle"></div>
+    </div>
+    <div class="dropdown hide" data-index="3">
+        <div class="dropdown-content">
+<div class="list-section" data-index="3">
+    <div class="list-wrapper" data-index="3">
+        <ul class="inner" data-index="3"></ul>
+    </div>
+    <div class="sublist-wrapper" data-index="3">
+        <ul class="inner" data-index="3"></ul>
+    </div>
+</div>
+
+        </div>
+        <div class="toggle"></div>
+    </div>
+</div>
+
+    </div>
+</section>
+
+
+<section id="schedule">
+<a href="/cinema/detail?cinemaId=576&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_0","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="576">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">星美国际影商城（广州新都荟店）</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+                <div class="icon refund-icon border border-all">改签</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市海珠区广州市海珠区东晓南路新都会广场4楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">24</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座 | 团
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=578&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_1","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="578">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">星美国际影商城（广州花都店）</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+                <div class="icon refund-icon border border-all">改签</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市花都区龙珠路39号来又来商场5楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">35</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座 | 团
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=740&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_2","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="740">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 78%">大地影院(东圃奥体高德店)</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+                <div class="icon snack-icon border border-all">商城</div>
+                <div class="icon refund-icon border border-all">改签</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州天河区奥体南路12号高德美居中心家居馆3楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">38</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=347&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_3","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="347">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">广州华影星美国际影城</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市荔湾区环市西路133路华南影都D区2楼(近广园西路)</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">29</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=3205&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_4","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="3205">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">横店电影城(广州庆丰店)</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市白云区庆丰广场路财智广场3楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">29</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=3928&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_5","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="3928">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 100%">金逸影城（光美番禺大石店）</div>
+            <div class="icon-list">
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市番禺区大石街建华汇商业中心东街17号楼F座3楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">32</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=591&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_6","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="591">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">广州华影梅花园影城</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市白云区广州大道北28号梅花园商业广场5楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">34</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=7890&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_7","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="7890">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 89%">横店电影城（广州南沙店）</div>
+            <div class="icon-list">
+                <div class="icon member-icon border border-all">会员</div>
+            </div>
+        </div>
+
+        <p class="cinema-address">南沙区进港大道奥园海景城4楼(蕉门地铁站)</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">28</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座 | 团
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=3524&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_8","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="3524">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 100%">金逸影城IMAX（光美番禺沙湾店）</div>
+            <div class="icon-list">
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市番禺区沙湾镇西环路1502号荔园新天地广场3楼金逸国际影城</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">32</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+<a href="/cinema/detail?cinemaId=565&amp;sfrom=wise_shoubai&amp;from=webapp&amp;active_movie_id=95272&amp;movieId=95272&amp;date=null#showing" class="schedule-info touching border border-bottom" data-log='{"da_src":"cinemaList.listLnk_9","da_act":"click"}'>
+    <div class="cinema-info"  data-uid="565">
+
+        <div class="cinema-name">
+            <div class="name" style="max-width: 100%">东圃摩登电影城</div>
+            <div class="icon-list">
+            </div>
+        </div>
+
+        <p class="cinema-address">广州市天河区东圃大马路14号东圃摩登城3楼</p>
+        <div class="extra price-status-1">
+                <div class="price"><span class="rmb">¥</span><span class="price-num">23</span><span class="qi">起</span></div>
+            <span class="icon tuanzuo">
+                座
+            </span>
+
+        </div>
+    </div>
+</a>
+
+    <div class="total-count" style="display: none;" data-total="52"></div>
+<div id="new-ajax-filter-data" style="display:none">[{"id":"times","name":"全部日期","activeIndex":0,"children":[{"id":1510848000000,"name":"今天11.17","value":1510848000000},{"id":1510934400000,"name":"明天11.18","value":1510934400000},{"id":1511020800000,"name":"后天11.19","value":1511020800000},{"id":200
+000,"name":"周一11.20","value":1511107200000},{"id":1511193600000,"name":"周二11.21","value":1511193600000},{"id":1511280000000,"name":"周三11.22","value":1511280000000},{"id":1511366400000,"name":"周四11.23","value":1511366400000}]},{"id":"region","name":"全城","type":"tab","children":[{"id":"areas","na,
+"keyEqual":{"count":"value"},"children":[{"id":"","name":"全部商圈"},{"id":1587,"name":"番禺","value":14,"children":[{"name":"全部","titleName":"番禺","id":"","value":14,"count":14},{"id":3242,"name":"其他","value":5,"count":5},{"id":3222,"name":"大石","value":2,"count":2},{"id":3221,"name":"大岗","value{
+"id":3223,"name":"大学城","value":1,"count":1},{"id":3233,"name":"清河东路","value":1,"count":1},{"id":3235,"name":"沙湾","value":1,"count":1},{"id":3236,"name":"石基","value":1,"count":1},{"id":3239,"name":"市桥","value":1,"count":1},{"id":3241,"name":"钟村","value":1,"count":1}],"count":14},{"id":2332,e":"白云","va
+lue":8,"children":[{"name":"全部","titleName":"白云","id":"","value":8,"count":8},{"id":5574,"name":"其他","value":3,"count":3},{"id":5553,"name":"京溪","value":2,"count":2},{"id":5550,"name":"机场路","value":1,"count":1},{"id":5558,"name":"罗冲围","value":1,"count":1},{"id":5563,"name":"石井","value":1,u
+nt":8},{"id":1613,"name":"天河","value":6,"children":[{"name":"全部","titleName":"天河","id":"","value":6,"count":6},{"id":3332,"nam"name":"周三11.22","value":1511280000000},{"id":1511366400000,"name":"周四11.23","value":1511366400000}]},{"id":"region","name":"全城","type":"tab","children":[{"id":"areas"圈
+","keyEqual":{"count":"value"},"children":[{"id":"","name":"全部商圈"},{"id":1587,"name":"番禺","value":14,"children":[{"name":"全部","titleName":"番禺","id":"","value":14,"count":14},{"id":3242,"name":"其他","value":5,"count":5},{"id":3222,"name":"大石","value":2,"count":2},{"id":3221,"name":"大岗","val":1,"count":1}
+,{"id":3223,"name":"大学城","value":1,"count":1},{"id":3233,"name":"清河东路","value":1,"count":1},{"id":3235,"name":"沙湾","value":1,"count":1},{"id":3236,"name":"石基","value":1,"count":1},{"id":3239,"name":"市桥","value":1,"count":1},{"id":3241,"name":"钟村","value":1,"count":1}],"count":14},{"id":233"
+value":8,"children":[{"name":"全部","titleName":"白云","id":"","value":8,"count":8},{"id":5574,"name":"其他","value":3,"count":3},{"id":5553,"name":"京溪","value":2,"count":2},{"id":5550,"name":"机场路","value":1,"count":1},{"id":5558,"name":"罗冲围","value":1,"count":1},{"id":5563,"name":"石井","value":c
+ount":8},{"id":1613,"name":"天河","value":6,"children":[{"name":"全部","titleName":"天河","id":"","value":6,"count":6},{"id":3332,"name":"东圃","value":2,"count":2},{"id":3331,"name":"车陂","value":1,"count":1},{"id":3351,"name":"五山","value":1,"count":1},{"id":3358,"name":"珠江新城","value":1,"count":1a
+me":"其他","value":1,"count":1}],"count":6},{"id":1150,"name":"花都","value":5,"children":[{"name":"全部","titleName":"花都","id":"","value":5,"count":5},{"id":1981,"name":"其他","value":3,"count":3},{"id":1978,"name":"新华","value":1,"count":1},{"id":1980,"name":"凤凰","value":1,"count":1}],"count":5},{am
+e":"荔湾","value":5,"children":[{"name":"全部","titleName":"荔湾","id":"","value":5,"count":5},{"id":6320,"name":"环市西","value":1,"count":1},{"id":6329,"name":"桥中","value":1,"count":1},{"id":6330,"name":"沙面","value":1,"count":1},{"id":6332,"name":"西村","value":1,"count":1},{"id":6333,"name":"西关"t
+":1}],"count":5},{"id":2007,"name":"黄埔","value":4,"children":[{"name":"全部","titleName":"黄埔","id":"","value":4,"count":4},{"id":4590,"name":"其他","value":2,"count":2},{"id":4584,"name":"荔联","value":1,"count":1},{"id":4585,"name":"南岗","value":1,"count":1}],"count":4},{"id":2338,"name":"海珠","var
+en":[{"name":"全部","titleName":"海珠","id":"","value":4,"count":4},{"id":5607,"name":"其他","value":2,"count":2},{"id":5595,"name":"龙凤","value":1,"count":1},{"id":5604,"name":"晓港","value":1,"count":1}],"count":4},{"id":1585,"name":"从化","value":2,"children":[{"name":"全部","titleName":"从化","id":"":2,"cou
+nt":2},{"id":3216,"name":"其他","value":2,"count":2}],"count":2},{"id":2319,"name":"增城","value":2,"children":[{"name":"全部","titleName":"增城","id":"","value":2,"count":2},{"id":5527,"name":"其他","value":2,"count":2}],"count":2},{"id":1178,"name":"越秀","value":1,"children":[{"name":"全部","titleName"
+,"value":1,"count":1},{"id":2121,"name":"火车站","value":1,"count":1}],"count":1},{"id":1986,"name":"南沙","value":1,"children":[{"name":"全部","titleName":"南沙","id":"","value":1,"count":1},{"id":4524,"name":"其他","value":1,"count":1}],"count":1}]},{"id":"metros","name":"按地铁","keyEqual":{"count":"vr
+en":[{"id":"","name":"全线"},{"id":11,"name":"地铁3号线","value":7,"children":[{"name":"全部","titleName":"地铁3号线","id":"","value":7,"count":7},{"id":262,"name":"体育西路","value":1,"count":1},{"id":275,"name":"番禺广场","value":1,"count":1},{"id":276,"name":"市桥","value":1,"count":1},{"id":278,"name"大石","value":1,"coun
+t":1},{"id":281,"name":"大塘","value":1,"count":1},{"id":282,"name":"客村","value":1,"count":1},{"id":283,"name":"广州塔","value":1,"count":1},{"id":284,"name":"珠江新城","value":1,"count":1},{"id":286,"name":"岗顶","value":1,"count":1}],"count":7},{"id":100,"name":"地铁6号线","value":7,"children":[{"namm
+e":"地铁6号线","id":"","value":7,"count":7},{"id":1429,"name":"黄沙","value":2,"count":2},{"id":451,"name":"燕塘","value":1,"count":1},{"id":1388,"name":"文化公园","value":1,"count":1},{"id":1523,"name":"河沙","value":1,"count":1},{"id":1560,"name":"沙贝","value":1,"count":1}],"count":7},{"id":20,"name"::
+5,"children":[{"name":"全部","titleName":"地铁5号线","id":"","value":5,"count":5},{"id":322,"name":"西村","value":2,"count":2},{"id":284,"name":"珠江新城","value":1,"count":1},{"id":323,"name":"广州火车站","value":1,"count":1},{"id":329,"name":"潭村","value":1,"count":1},{"id":332,"name":"东圃","value":1:
+5},{"id":24,"name":"地铁2号线","value":5,"children":[{"name":"全部","titleName":"地铁2号线","id":"","value":5,"count":5},{"id":323,"name":"广州火车站","value":1,"count":1},{"id":416,"name":"洛溪","value":1,"count":1},{"id":417,"name":"南洲","value":1,"count":1},{"id":418,"name":"东晓南","value":1,"count""
+纪念堂","value":1,"count":1},{"id":424,"name":"越秀公园","value":1,"count":1},{"id":427,"name":"白云公园","value":1,"count":1}],"count":5},{"id":10,"name":"地铁1号线","value":4,"children":[{"name":"全部","titleName":"地铁1号线","id":"","value":4,"count":4},{"id":1429,"name":"黄沙","value":2,"count":2},{""
+value":1,"count":1},{"id":268,"name":"西门口","value":1,"count":1},{"id":269,"name":"陈家祠","value":1,"count":1},{"id":270,"name":"长寿路","value":1,"count":1}],"count":4},{"id":26,"name":"地铁3号线北延段","value":4,"children":[{"name":"全部","titleName":"地铁3号线北延段","id":"","value":4,"count":4},{"a
+lue":1,"count":1},{"id":449,"name":"京溪南方医院","value":1,"count":1},{"id":450,"name":"梅花园","value":1,"count":1},{"id":451,"name":"燕塘","value":1,"count":1}],"count":4},{"id":12,"name":"地铁4号线","value":3,"children":[{"name":"全部","titleName":"地铁4号线","id":"","value":3,"count":3},{"id":13,"nalue":1,"c
+ount":1},{"id":433,"name":"黄村","value":1,"count":1},{"id":434,"name":"车陂","value":1,"count":1}],"count":3},{"id":25,"name":"地铁8号线","value":2,"children":[{"name":"全部","titleName":"地铁8号线","id":"","value":2,"count":2},{"id":282,"name":"客村","value":1,"count":1},{"id":473,"name":"凤凰新村","va"
+id":474,"name":"沙园","value":1,"count":1}],"count":2},{"id":27,"name":"广佛线","value":1,"children":[{"name":"全部","titleName":"广佛线","id":"","value":1,"count":1}],"count":1},{"id":28,"name":"apm线","value":1,"children":[{"name":"全部","titleName":"apm线","id":"","value":1,"count":1},{"id":283,"name""
+:1,"count":1},{"id":470,"name":"黄埔大道","value":1,"count":1}],"count":1}]}]},{"id":"brands","name":"品牌","keyEqual":{"count":"value"},"children":[{"id":"","name":"全部品牌"},{"id":9,"name":"金逸国际电影城","value":6,"count":6},{"id":76,"name":"大地影院","value":5,"count":5},{"id":6,"name":"星美国际影城unt":3},{"i
+d":84,"name":"烽禾影城","value":3,"count":3},{"id":7,"name":"中影国际影城","value":2,"count":2},{"id":11,"name":"横店电影城","value":2,"count":2},{"id":72,"name":"UA影城","value":2,"count":2},{"id":86,"name":"喜洋时代影城","value":2,"count":2},{"id":16,"name":"橙天嘉禾影城","value":1,"count":1},{"id":21,c
+ount":1},{"id":34,"name":"CGV星星国际影城","value":1,"count":1},{"id":39,"name":"万达国际影城","value":1,"count":1},{"id":44,"name":"卢米埃影城","value":1,"count":1},{"id":1,"name":"其他","value":22,"count":22}]},{"id":"filters","name":"筛选","children":[{"id":"all","name":"全部影院","titleName":"全部"},,
+"titleName":"选座"},{"id":"groupon","name":"支持团购","titleName":"团购"},{"id":"memCard","name":"支持会员卡","titleName":"会员卡"},{"id":"snack","name":"支持商城","titleName":"商城"},{"id":"features","name":"支持特殊厅","noChildren":"remove","keyEqual":{"count":"value"}},{"id":"refund","name":"支持改签""titleName":"可改签"}]}]</div>
+</section>
+<div id="load-more"></div>
+
+
+</div>
+        <script>
+        window.PointerEvent = undefined;
+        $(document.body).css('font-size', document.documentElement.clientWidth / 20 + 'px');
+        $('a').each(function (index, link) {
+            var event = {
+                target: link
+            };
+            handler(event);
+        });
+
+        var swKey = 'no_sw';
+        var chromeVersion = navigator.userAgent.match(/Chrome\/(\d+?)\./);
+        if ('serviceWorker' in navigator) {
+            // 在安卓某些机型下即使有这个属性但还是不支持
+            if (!chromeVersion || chromeVersion && chromeVersion[1] && chromeVersion[1] > 45) {
+                swKey = 'sw';
+                navigator.serviceWorker.register('/sw.js?v=' + _MOVIE.version);
+            }
+        }
+        $.get('/api/common/specialLog?key=' + swKey + '-' + encodeURIComponent(_MOVIE.pageId) + '&value=' + encodeURIComponent(Date.now() - pageStart));
+        </script>
+        <script type="text/javascript" src="//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/movie1/dianying-static4/assets/src/common_a4c525f0.js"></script>
+<script src="//gss0.baidu.com/9rkZbzqaKgQUohGko9WTAnF6hhy/movie1/dianying-static4/assets/src/movie/schedule_0706e69d.js"></script>
+
+<script>
+var bound = {
+    c: 131,
+    x: 0,
+    y: 0
+};
+
+require(['movie/schedule'], function (SchedulePage) {
+    var page = new SchedulePage({
+        data: {
+            filter: [{"id":"times","name":"全部日期","activeIndex":0,"children":[{"id":1510848000000,"name":"今天11.17","value":1510848000000},{"id":1510934400000,"name":"明天11.18","value":1510934400000},{"id":1511020800000,"name":"后天11.19","value":1511020800000},{"id":1511107200000,"name":"周一11.20"1
+1107200000},{"id":1511193600000,"name":"周二11.21","value":1511193600000},{"id":1511280000000,"name":"周三11.22","value":1511280000000},{"id":1511366400000,"name":"周四11.23","value":1511366400000}]},{"id":"region","name":"全城","type":"tab","children":[{"id":"areas","name":"按商圈","keyEqual":{"count":","ch
+ildren":[{"id":"","name":"全部商圈"},{"id":1587,"name":"番禺","value":14,"children":[{"name":"全部","titleName":"番禺","id":"","value":14,"count":14},{"id":3242,"name":"其他","value":5,"count":5},{"id":3222,"name":"大石","value":2,"count":2},{"id":3221,"name":"大岗","value":1,"count":1},{"id":3223,"name"1
+,"count":1},{"id":3233,"name":"清河东路","value":1,"count":1},{"id":3235,"name":"沙湾","value":1,"count":1},{"id":3236,"name":"石基","value":1,"count":1},{"id":3239,"name":"市桥","value":1,"count":1},{"id":3241,"name":"钟村","value":1,"count":1}],"count":14},{"id":2332,"name":"白云","value":8,"children":,
+"titleName":"白云","id":"","value":8,"count":8},{"id":5574,"name":"其他","value":3,"count":3},{"id":5553,"name":"京溪","value":2,"count":2},{"id":5550,"name":"机场路","value":1,"count":1},{"id":5558,"name":"罗冲围","value":1,"count":1},{"id":5563,"name":"石井","value":1,"count":1}],"count":8},{"id":1613,ame":"天河","v
+alue":6,"children":[{"name":"全部","titleName":"天河","id":"","value":6,"count":6},{"id":3332,"name":"东圃","value":2,"count":2},{"id":3331,"name":"车陂","value":1,"count":1},{"id":3351,"name":"五山","value":1,"count":1},{"id":3358,"name":"珠江新城","value":1,"count":1},{"id":3359,"name":"其他","value":1o
+unt":6},{"id":1150,"name":"花都","value":5,"children":[{"name":"全部","titleName":"花都","id":"","value":5,"count":5},{"id":1981,"name":"其他","value":3,"count":3},{"id":1978,"name":"新华","value":1,"count":1},{"id":1980,"name":"凤凰","value":1,"count":1}],"count":5},{"id":2623,"name":"荔湾","value":5,"ca
+me":"全部","titleName":"荔湾","id":"","value":5,"count":5},{"id":6320,"name":"环市西","value":1,"count":1},{"id":6329,"name":"桥中","value":1,"count":1},{"id":6330,"name":"沙面","value":1,"count":1},{"id":6332,"name":"西村","value":1,"count":1},{"id":6333,"name":"西关","value":1,"count":1}],"count":5},{"e"
+:"黄埔","value":4,"children":[{"name":"全部","titleName":"黄埔","id":"","value":4,"count":4},{"id":4590,"name":"其他","value":2,"count":2},{"id":4584,"name":"荔联","value":1,"count":1},{"id":4585,"name":"南岗","value":1,"count":1}],"count":4},{"id":2338,"name":"海珠","value":4,"children":[{"name":"全部","
+,"id":"","value":4,"count":4},{"id":5607,"name":"其他","value":2,"count":2},{"id":5595,"name":"龙凤","value":1,"count":1},{"id":5604,"name":"晓港","value":1,"count":1}],"count":4},{"id":1585,"name":"从化","value":2,"children":[{"name":"全部","titleName":"从化","id":"","value":2,"count":2},{"id":3216,"naml
+ue":2,"count":2}],"count":2},{"id":2319,"name":"增城","value":2,"children":[{"name":"全部","titleName":"增城","id":"","value":2,"count":2},{"id":5527,"name":"其他","value":2,"count":2}],"count":2},{"id":1178,"name":"越秀","value":1,"children":[{"name":"全部","titleName":"越秀","id":"","value":1,"count":1"
+name":"火车站","value":1,"count":1}],"count":1},{"id":1986,"name":"南沙","value":1,"children":[{"name":"全部","titleName":"南沙","id":"","value":1,"count":1},{"id":4524,"name":"其他","value":1,"count":1}],"count":1}]},{"id":"metros","name":"按地铁","keyEqual":{"count":"value"},"children":[{"id":"","name"id":1
+1,"name":"地铁3号线","value":7,"children":[{"name":"全部","titleName":"地铁3号线","id":"","value":7,"count":7},{"id":262,"name":"体育西路","value":1,"count":1},{"id":275,"name":"番禺广场","value":1,"count":1},{"id":276,"name":"市桥","value":1,"count":1},{"id":278,"name":"大石","value":1,"count":1},{"id":e
+":1,"count":1},{"id":282,"name":"客村","value":1,"count":1},{"id":283,"name":"广州塔","value":1,"count":1},{"id":284,"name":"珠江新城","value":1,"count":1},{"id":286,"name":"岗顶","value":1,"count":1}],"count":7},{"id":100,"name":"地铁6号线","value":7,"children":[{"name":"全部","titleName":"地铁6号线","in
+t":7},{"id":1429,"name":"黄沙","value":2,"count":2},{"id":451,"name":"燕塘","value":1,"count":1},{"id":1388,"name":"文化公园","value":1,"count":1},{"id":1523,"name":"河沙","value":1,"count":1},{"id":1560,"name":"沙贝","value":1,"count":1}],"count":7},{"id":20,"name":"地铁5号线","value":5,"children":[{"na部","titleN
+ame":"地铁5号线","id":"","value":5,"count":5},{"id":322,"name":"西村","value":2,"count":2},{"id":284,"name":"珠江新城","value":1,"count":1},{"id":323,"name":"广州火车站","value":1,"count":1},{"id":329,"name":"潭村","value":1,"count":1},{"id":332,"name":"东圃","value":1,"count":1}],"count":5},{"id":24,"na"
+:5,"children":[{"name":"全部","titleName":"地铁2号线","id":"","value":5,"count":5},{"id":323,"name":"广州火车站","value":1,"count":1},{"id":416,"name":"洛溪","value":1,"count":1},{"id":417,"name":"南洲","value":1,"count":1},{"id":418,"name":"东晓南","value":1,"count":1},{"id":423,"name":"纪念堂","value":2
+4,"name":"越秀公园","value":1,"count":1},{"id":427,"name":"白云公园","value":1,"count":1}],"count":5},{"id":10,"name":"地铁1号线","value":4,"children":[{"name":"全部","titleName":"地铁1号线","id":"","value":4,"count":4},{"id":1429,"name":"黄沙","value":2,"count":2},{"id":262,"name":"体育西路","value":1,"nt":1},{"id":268,"nam
+e":"西门口","value":1,"count":1},{"id":269,"name":"陈家祠","value":1,"count":1},{"id":270,"name":"长寿路","value":1,"count":1}],"count":4},{"id":26,"name":"地铁3号线北延段","value":4,"children":[{"name":"全部","titleName":"地铁3号线北延段","id":"","value":4,"count":4},{"id":262,"name":"体育西路","value":"
+:"京溪南方医院","value":1,"count":1},{"id":450,"name":"梅花园","value":1,"count":1},{"id":451,"name":"燕塘","value":1,"count":1}],"count":4},{"id":12,"name":"地铁4号线","value":3,"children":[{"name":"全部","titleName":"地铁4号线","id":"","value":3,"count":3},{"id":13,"name":"金洲","value":1,"count":1},{"a
+lue":1,"count":1},{"id":434,"name":"车陂","value":1,"count":1}],"count":3},{"id":25,"name":"地铁8号线","value":2,"children":[{"name":"全部","titleName":"地铁8号线","id":"","value":2,"count":2},{"id":282,"name":"客村","value":1,"count":1},{"id":473,"name":"凤凰新村","value":1,"count":1},{"id":474,"name":"u
+nt":1}],"count":2},{"id":27,"name":"广佛线","value":1,"children":[{"name":"全部","titleName":"广佛线","id":"","value":1,"count":1}],"count":1},{"id":28,"name":"apm线","value":1,"children":[{"name":"全部","titleName":"apm线","id":"","value":1,"count":1},{"id":283,"name":"广州塔","value":1,"count":1},{"id""黄埔
+大道","value":1,"count":1}],"count":1}]}]},{"id":"brands","name":"品牌","keyEqual":{"count":"value"},"children":[{"id":"","name":"全部品牌"},{"id":9,"name":"金逸国际电影城","value":6,"count":6},{"id":76,"name":"大地影院","value":5,"count":5},{"id":6,"name":"星美国际影城","value":3,"count":3},{"id":84,"nau
+nt":3},{"id":7,"name":"中影国际影城","value":2,"count":2},{"id":11,"name":"横店电影城","value":2,"count":2},{"id":72,"name":"UA影城","value":2,"count":2},{"id":86,"name":"喜洋时代影城","value":2,"count":2},{"id":16,"name":"橙天嘉禾影城","value":1,"count":1},{"id":21,"name":"左岸国际电影城","value":1,"cou影
+城","value":1,"count":1},{"id":39,"name":"万达国际影城","value":1,"count":1},{"id":44,"name":"卢米埃影城","value":1,"count":1},{"id":1,"name":"其他","value":22,"count":22}]},{"id":"filters","name":"筛选","children":[{"id":"all","name":"全部影院","titleName":"全部"},{"id":"seat","name":"支持选座","titleNaid":"groupon",
+"name":"支持团购","titleName":"团购"},{"id":"memCard","name":"支持会员卡","titleName":"会员卡"},{"id":"snack","name":"支持商城","titleName":"商城"},{"id":"features","name":"支持特殊厅","noChildren":"remove","keyEqual":{"count":"value"}},{"id":"refund","name":"支持改签","titleName":"可改签"}]}],
+            changeCity: 0,
+            tmsConfs: [],
+            fromH5Rapid: 0
+        }
+    });
+    page.start();
+});
+</script>
+        <script>
+            void function(e,t){for(var n=t.getElementsByTagName("img"),a=+new Date,i=[],o=function(){this.removeEventListener&&this.removeEventListener("load",o,!1),i.push({img:this,time:+new Date})},s=0;s< n.length;s++)!function(){var e=n[s];e.addEventListener?!e.complete&&e.addEventListener("load",o,!1
+):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"==e.readyState&&o.call(e,o)})}();alog("speed.set",{fsItems:i,fs:a})}(window,document);
+                alog('speed.set', 'drt', +new Date);
+        </script>
+        <script>
+            void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b
+.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||
+alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(
+new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.mobile.min.js");
+        </script>
+        </body>
+    </html>
+
+,{"id":"memCard","name":"支持会员卡","titleName":"会员卡"},{"id":"snack","name":"支持商城","titleName":"商城"},{"id":"features","name":"支持特殊厅","noChildren":"remove","keyEqual":{"count":"value"}},{"id":"refund","name":"支持改签","titleName":"可改签"}]}],
+            changeCity: 0,
+            tmsConfs: [],
+            fromH5Rapid: 0
+        }
+    });
+    page.start();
+});
+</script>
+        <script>
+            void function(e,t){for(var n=t.getElementsByTagName("img"),a=+new Date,i=[],o=function(){this.removeEventListener&&this.removeEventListener("load",o,!1),i.push({img:this,time:+new Date})},s=0;s< n.length;s++)!function(){var e=n[s];e.addEventListener?!e.complete&&e.addEventListener("load",o,!1
+):e.attachEvent&&e.attachEvent("onreadystatechange",function(){"complete"==e.readyState&&o.call(e,o)})}();alog("speed.set",{fsItems:i,fs:a})}(window,document);
+                alog('speed.set', 'drt', +new Date);
+        </script>
+        <script>
+            void function(a,b,c,d,e,f){function g(b){a.attachEvent?a.attachEvent("onload",b,!1):a.addEventListener&&a.addEventListener("load",b)}function h(a,c,d){d=d||15;var e=new Date;e.setTime((new Date).getTime()+1e3*d),b.cookie=a+"="+escape(c)+";path=/;expires="+e.toGMTString()}function i(a){var c=b
+.cookie.match(new RegExp("(^| )"+a+"=([^;]*)(;|$)"));return null!=c?unescape(c[2]):null}function j(){var a=i("PMS_JT");if(a){h("PMS_JT","",-1);try{a=a.match(/{["']s["']:(\d+),["']r["']:["']([\s\S]+)["']}/),a=a&&a[1]&&a[2]?{s:parseInt(a[1]),r:a[2]}:{}}catch(c){a={}}a.r&&b.referrer.replace(/#.*/,"")!=a.r||
+alog("speed.set","wt",a.s)}}if(a.alogObjectConfig){var k=a.alogObjectConfig.sample,l=a.alogObjectConfig.rand;d="https:"===a.location.protocol?"https://fex.bdstatic.com"+d:"http://fex.bdstatic.com"+d,k&&l&&l>k||(g(function(){alog("speed.set","lt",+new Date),e=b.createElement(c),e.async=!0,e.src=d+"?v="+~(
+new Date/864e5)+~(new Date/864e5),f=b.getElementsByTagName(c)[0],f.parentNode.insertBefore(e,f)}),j())}}(window,document,"script","/hunter/alog/dp.mobile.min.js");
+        </script>
+        </body>
+    </html>
+
+
+        </script>
+        </body>
+    </html>
