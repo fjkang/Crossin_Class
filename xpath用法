@@ -1,0 +1,15 @@
+selenium使用Xpath定位之完整篇
+
+第一种方法：通过绝对路径做定位（相信大家不会使用这种方式）
+
+By.xpath("html/body/div/form/input")
+By.xpath("//input")
+第三种方法：通过元素索引定位
+By.xpath("//input[4]")
+第四种方法：使用xpath属性定位（结合第2、第3中方法可以使用）
+By.xpath("//input[@id='kw1']")
+By.xpath("//input[@type='name' and @name='kw1']")
+第五种方法：使用部分属性值匹配（最强大的方法）
+By.xpath("//input[start-with(@id,'nice')
+By.xpath("//input[ends-with(@id,'很漂亮')
+By.xpath("//input[contains(@id,'那么美')]")
